@@ -9,13 +9,14 @@
 <body>
 <nav>
 <ul>
-	<li><a href="#">조회</a></li>
+	<li><a href="index.jsp">조회</a></li>
 	<li><a href="insert_info.jsp">사원등록</a></li>
 	<li><a href="insert_hobong.jsp">호봉등록</a></li>
 	<li><a href="select_info.jsp">사원정보</a></li>
 	<li><a href="select_hobong.jsp">호봉정보</a></li>
-	<li><a href="#">종료</a></li>
-	<li><a href="#">홈으로</a></li>
+	<li><a href="salarySelect.jsp">급여정보</a></li>
+	<li><a href="index.jsp">종료</a></li>
+	<li><a href="index.jsp">홈으로</a></li>
 </ul>
 </nav>
 </body>

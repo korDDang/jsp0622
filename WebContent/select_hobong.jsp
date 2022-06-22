@@ -40,6 +40,7 @@ try{
 		case "5": dunggub="5급";
 		break;
 		}
+		String dunggub2=rs.getString(1);
 		String salary=rs.getString(2);
 		no++;
 
@@ -47,7 +48,7 @@ try{
 %>
 <tr>
 <td><%=no %></td>
-<td><a href="update_hobong.jsp?dunggub=<%=dunggub %>"><%=dunggub %></a></td>
+<td><a href="update_hobong.jsp?dunggub=<%=dunggub2 %>"><%=dunggub %></a></td>
 <td><%=salary%></td>
 </tr>
 <%
